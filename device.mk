@@ -44,10 +44,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     firefox \
     signal \
-    osmand \
     vlc \
-#    fakegps \
-    bwcommunity
+    bwcommunity \
+	fdroid
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
