@@ -39,3 +39,5 @@ VENDOR_SECURITY_PATCH := 2018-06-05
 
 # inherit from the proprietary version
 -include vendor/oneplus/dumpling/BoardConfigVendor.mk
+
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
